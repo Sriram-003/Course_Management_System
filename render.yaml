@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 services:
   - type: web
     name: php-web-service
@@ -6,3 +7,14 @@ services:
     branch: main
     buildCommand: ""
     startCommand: php -S 0.0.0.0:10000
+=======
+services:
+  - type: web
+    name: course-management-php
+    env: web
+    plan: free
+    branch: main
+    buildCommand: ""                
+    startCommand: php -S 0.0.0.0:10000
+    envVars: []
+>>>>>>> 60b7d2e (Update auto deploy command)
